@@ -99,6 +99,36 @@ nav a:hover {
   background-color: #6f9fed;
 }
 .information {
-    width: 30%;
-    margin: 50px auto;
+  width: 900px;
+  margin: 50px auto 100px auto;
+}
+.information h2 {
+  text-align: center;
+  color: #293649;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 35px;
+}
+.container {
+  display: flex;
+  gap: 30px;
+}
+.container div {
+  padding: 20px;
+  text-align: center;
+}
+.container img {
+  height: 175px;
+  width: auto;
+  margin-bottom: 10px;
+  border: 3px solid #1f2937;
+  border-radius: 10px;
+  padding: 20px;
+}
+article {
+    background-color: #E5E7EB;
+    padding: 150px 100px;
+}
+q {
+    quotes: none;
 }
