@@ -100,7 +100,7 @@ nav a:hover {
 }
 .information {
   width: 900px;
-  margin: 50px auto 100px auto;
+  margin: 50px auto 80px auto;
 }
 .information h2 {
   text-align: center;
@@ -127,8 +127,20 @@ nav a:hover {
 }
 article {
     background-color: #E5E7EB;
-    padding: 150px 100px;
+    padding: 120px 250px;
 }
 q {
+    display: inline-block;
+    text-align: justify;
+    font-style: italic;
     quotes: none;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+article p {
+    padding: 25px 40px 0 0;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 500;
 }
